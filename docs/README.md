@@ -4,7 +4,14 @@
 
 ## 数据加载模块
 
+加载体素文件，体素文件可视化，自动生成数据集。
+
+!> 不需要生成训练数据的时候，记得修改`data_loader_config.toml`中的`is_load_voxel`、`generate_train_data`和`single_projection`都设置为0，再进行其他的设置。
+
+
 ## 模型定义模块
+
+通过模块化的方式搭建网络，可以一次性搭建多个网络。
 
 ## 模型训练模块
 
